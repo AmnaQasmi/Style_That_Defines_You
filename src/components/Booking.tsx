@@ -15,7 +15,7 @@ const Booking = () => {
     'Hair Cut',
     'Stylish Beard/Shave',
     'Dermacos Facial',
-    'Wedding Package (₨11,999)',
+    'Wedding Package (₨10,999)',
     'Mehndi/Valima Package (₨10,499)',
     'Hair Expert Package (₨3,500)',
     'Other (Specify in message)'

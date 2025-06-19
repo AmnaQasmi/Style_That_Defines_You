@@ -10,7 +10,7 @@ const About = () => {
     },
     {
       icon: <Award className="text-amber-500" size={32} />,
-      number: "5+",
+      number: "16",
       label: "Years Experience"
     },
     {
@@ -20,7 +20,7 @@ const About = () => {
     },
     {
       icon: <Clock className="text-amber-500" size={32} />,
-      number: "10",
+      number: "11",
       label: "Hours Daily"
     }
   ];

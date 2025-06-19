@@ -38,7 +38,7 @@ const Services = () => {
   const packages = [
     {
       title: "Wedding Package",
-      price: "₨ 11,999",
+      price: "₨ 10,999",
       description: "Complete grooming for your special day",
       features: [
         "Hair Cut & Styling",
