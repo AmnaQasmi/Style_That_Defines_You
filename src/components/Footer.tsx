@@ -1,5 +1,5 @@
 
-import { MapPin, Phone, Youtube, Instagram, Facebook } from 'lucide-react';
+import { MapPin, Phone, Youtube, Instagram, Facebook, Music2 } from 'lucide-react';
 
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
@@ -54,6 +54,14 @@ const Footer = () => {
               >
                 <Facebook size={20} />
               </a>
+              <a 
+                href="https://www.tiktok.com/@sheikhsahabbarberpoint54" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-green-400 transition-colors"
+              >
+                <Music2 size={20} />
+              </a>
             </div>
           </div>
 
@@ -101,19 +109,28 @@ const Footer = () => {
                   Booking
                 </button>
               </li>
+               <li>
+                <button 
+                  onClick={() => scrollToSection('location')}
+                  className="text-gray-400 hover:text-amber-500 transition-colors"
+                >
+                  Location
+                </button>
+              </li>
             </ul>
           </div>
 
           {/* Services */}
           <div>
             <h4 className="text-lg font-bold mb-4">Our Services</h4>
-            <ul className="space-y-2 text-gray-400">
+            <ul className="space-y-2 text-gray-400 hover:text-amber-500 transition-colors">
               <li>Hair Cut & Styling</li>
               <li>Beard Trimming</li>
               <li>Facial Treatments</li>
               <li>Wedding Packages</li>
               <li>Manicure & Pedicure</li>
               <li>Complete Grooming</li>
+              <li>Home Services</li>
             </ul>
           </div>
 
@@ -124,9 +141,16 @@ const Footer = () => {
               <div className="flex items-start space-x-2">
                 <MapPin className="text-amber-500 mt-1" size={16} />
                 <div className="text-gray-400 text-sm">
-                  House No. 22, Shop No. 5-4<br />
+                  {/* House No. 22, Shop No. 5-4<br />
+                  Behind Lee Broast, Sweet Homeland<br />
+                  Model Colony, Karachi */}
+                <li>
+                  <a href="https://maps.app.goo.gl/QuTphKGoLeJkoJ2e6" target="_blank" className='hover:text-amber-500 transition-colors'>
+                   House No. 22, Shop No. 5-4<br />
                   Behind Lee Broast, Sweet Homeland<br />
                   Model Colony, Karachi
+                  </a>
+                </li>
                 </div>
               </div>
               <div className="flex items-center space-x-2">

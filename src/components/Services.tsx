@@ -70,7 +70,7 @@ const Services = () => {
         "Manicure + Pedicure + Hair Wash",
         "Hair Styling + Makeup"
       ],
-      popular: false
+      popular: true
     },
     {
       title: "Hair Expert Package",
@@ -86,7 +86,7 @@ const Services = () => {
         "5 inch Length (Atlas Long Hair Package)",
         "1 inch including price 600 Hundred"
       ],
-      popular: false
+      popular: true
     }
   ];
 

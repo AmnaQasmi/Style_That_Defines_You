@@ -1,5 +1,5 @@
 
-import { MapPin, Phone, MessageSquare, Youtube, Instagram, Facebook } from 'lucide-react';
+import { MapPin, Phone, MessageSquare, Youtube, Instagram, Facebook, Music2 } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -20,17 +20,17 @@ const Contact = () => {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <MapPin className="text-amber-500 mt-1" size={24} />
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Our Location</h4>
-                    <p className="text-gray-600">
+                    <a href="https://maps.app.goo.gl/QuTphKGoLeJkoJ2e6" target="_blank" className="text-amber-500 hover:text-amber-600 transition-colors">
                       House No. 22, Shop No. 5-4<br />
                       Behind Lee Broast, Sweet Homeland<br />
                       Model Colony, Karachi
-                    </p>
+                    </a>
                   </div>
                 </div>
 
@@ -38,8 +38,8 @@ const Contact = () => {
                   <Phone className="text-amber-500 mt-1" size={24} />
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Phone & WhatsApp</h4>
-                    <a 
-                      href="tel:+923130103399" 
+                    <a
+                      href="tel:+923130103399"
                       className="text-amber-500 hover:text-amber-600 transition-colors"
                     >
                       +92 313 0103399
@@ -51,8 +51,8 @@ const Contact = () => {
                   <MessageSquare className="text-amber-500 mt-1" size={24} />
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Quick Booking</h4>
-                    <a 
-                      href="https://wa.me/923130103399" 
+                    <a
+                      href="https://wa.me/923130103399"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-amber-500 hover:text-amber-600 transition-colors"
@@ -68,8 +68,8 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Follow Us</h3>
               <div className="flex space-x-4">
-                <a 
-                  href="https://www.youtube.com/@SheikhSahabBarberpoint" 
+                <a
+                  href="https://www.youtube.com/@SheikhSahabBarberpoint"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition-colors"
@@ -77,9 +77,9 @@ const Contact = () => {
                   <Youtube size={20} />
                   <span>YouTube</span>
                 </a>
-                
-                <a 
-                  href="https://www.instagram.com/sheikhsahab.official54" 
+
+                <a
+                  href="https://www.instagram.com/sheikhsahab.official54"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition-colors"
@@ -87,15 +87,25 @@ const Contact = () => {
                   <Instagram size={20} />
                   <span>Instagram</span>
                 </a>
-                
-                <a 
-                  href="https://www.facebook.com/profile.php?id=61574991826987" 
+
+                <a
+                  href="https://www.facebook.com/profile.php?id=61574991826987"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors"
                 >
                   <Facebook size={20} />
                   <span>Facebook</span>
+                </a>
+
+                <a
+                  href="https://www.tiktok.com/@sheikhsahabbarberpoint54"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-2 from- bg-purple-500 text-white px-4 py-2 rounded-lg hover:bg-purple-600 transition-colors"
+                >
+                  <Music2 size={20} />
+                  <span>Tiktok</span>
                 </a>
               </div>
             </div>
@@ -109,8 +119,8 @@ const Contact = () => {
                 <h4 className="text-xl font-bold mb-2">Visit Our Shop</h4>
                 <p className="mb-2">Model Colony, Karachi</p>
                 <p className="text-sm mb-4">Open: Tue-Sun 1PM-11PM | Closed Monday</p>
-                <a 
-                  href="https://maps.google.com/?q=House+No.+22,+Shop+No.+5-4,+behind+Lee+Broast,+Sweet+Homeland,+Model+Colony,+Karachi"
+                <a
+                  href="https://maps.app.goo.gl/MYBbg8yEc5UYgAfz7"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-black text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition-colors inline-block"
